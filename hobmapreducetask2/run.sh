@@ -1,6 +1,6 @@
 #! /usr/bin/env bash
-
-OUT_DIR="task-2-shima"
+#123 var
+OUT_DIR="task-2"
 NUM_REDUCERS=6
 
 hdfs dfs -rm -r -skipTrash ${OUT_DIR} > /dev/null
